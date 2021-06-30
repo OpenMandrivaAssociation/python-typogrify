@@ -13,6 +13,8 @@ BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
 
+Requires:    python3dist(smartypants)
+
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
 %description
