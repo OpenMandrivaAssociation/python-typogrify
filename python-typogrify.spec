@@ -39,7 +39,7 @@ done
 %install
 %py_install
 
-%files -n python3-%{pypi_name}
+%files
 %license LICENSE.txt
 %doc README.rst
 %{python_sitelib}/%{pypi_name}/
