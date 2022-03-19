@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        2.0.7
-Release:        1
+Release:        2
 Summary:        Filters to enhance web typography, with support for Django & Jinja templates
 Group:          Development/Python
 License:        BSD
